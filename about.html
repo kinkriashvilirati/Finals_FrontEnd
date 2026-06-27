@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn about NOVA Market and our simple approach to everyday shopping." />
+    <title>About | NOVA Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="NOVA Market home"><span class="logo-mark">N</span><span>NOVA</span></a>
+        <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation" data-menu-button><span></span><span></span><span></span></button>
+        <nav class="main-nav" id="main-navigation" aria-label="Main navigation" data-navigation>
+          <a href="index.html">Shop</a><a class="active" href="about.html">About</a><a href="register.html">Register</a>
+          <a class="cart-link" href="cart.html">Cart <span class="cart-count" data-cart-count>0</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero about-hero">
+        <div class="container narrow-container">
+          <p class="eyebrow">About NOVA</p>
+          <h1>Shopping should feel clear, useful, and human.</h1>
+          <p>We bring together practical products for home and everyday life in a store designed to be easy to use.</p>
+        </div>
+      </section>
+
+      <section class="story-section">
+        <div class="container story-grid">
+          <div class="story-visual" aria-hidden="true"><span>N</span></div>
+          <article class="story-content">
+            <p class="eyebrow">Our idea</p>
+            <h2>Less noise. More useful finds.</h2>
+            <p>NOVA Market is a fictional general store created as a frontend course project. Its purpose is to demonstrate a complete, responsive shopping experience with clean and understandable code.</p>
+            <p>Every part of the site—from the product catalogue to the registration form—has been built using semantic HTML, modern CSS, and vanilla JavaScript.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="values-section">
+        <div class="container">
+          <div class="section-heading"><div><p class="eyebrow">What matters</p><h2>Our values</h2></div></div>
+          <div class="values-grid">
+            <article><span>01</span><h3>Clarity</h3><p>Information and actions should always be easy to understand.</p></article>
+            <article><span>02</span><h3>Usefulness</h3><p>We focus on products that fit naturally into everyday life.</p></article>
+            <article><span>03</span><h3>Care</h3><p>A thoughtful experience matters at every screen size.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-strip">
+        <div class="container contact-inner">
+          <div><p class="eyebrow">Need help?</p><h2>We would love to hear from you.</h2></div>
+          <a class="button button-light" href="mailto:hello@novamarket.example">Email NOVA</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="logo logo-footer" href="index.html"><span class="logo-mark">N</span><span>NOVA</span></a>
+        <p>Everyday products, thoughtfully chosen.</p><p>&copy; <span data-current-year></span> NOVA Market</p>
+      </div>
+    </footer>
+    <script src="scripts/shared.js"></script>
+  </body>
+</html>

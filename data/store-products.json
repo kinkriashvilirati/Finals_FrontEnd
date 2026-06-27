@@ -1,0 +1,14 @@
+[
+  {"id":"p1","name":"Everyday Cotton T-Shirt","category":"Clothing","price":18.99,"image":"images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg","description":"Soft cotton basics made for comfortable everyday wear."},
+  {"id":"p2","name":"Compact Travel Backpack","category":"Accessories","price":34.50,"image":"images/products/backpack.jpg","description":"A practical lightweight backpack with room for daily essentials."},
+  {"id":"p3","name":"Steel Water Kettle","category":"Home","price":29.95,"image":"images/products/electric-glass-and-steel-hot-water-kettle.webp","description":"A fast, simple kettle with a clear glass body."},
+  {"id":"p4","name":"Classic Black Toaster","category":"Home","price":24.99,"image":"images/products/black-2-slot-toaster.jpg","description":"A compact two-slot toaster for easy breakfasts."},
+  {"id":"p5","name":"Round Everyday Sunglasses","category":"Accessories","price":16.75,"image":"images/products/round-sunglasses-black.jpg","description":"Lightweight sunglasses with a timeless round frame."},
+  {"id":"p6","name":"Soft Bathroom Rug","category":"Home","price":21.40,"image":"images/products/bathroom-rug.jpg","description":"A soft, absorbent rug that adds comfort underfoot."},
+  {"id":"p7","name":"Sport Basketball","category":"Sports","price":27.00,"image":"images/products/intermediate-composite-basketball.jpg","description":"A durable composite basketball for indoor and outdoor play."},
+  {"id":"p8","name":"Green Athletic Shoes","category":"Sports","price":48.90,"image":"images/products/men-athletic-shoes-green.jpg","description":"Supportive athletic shoes with a lightweight feel."},
+  {"id":"p9","name":"Countertop Blender","category":"Home","price":64.99,"image":"images/products/countertop-blender-64-oz.jpg","description":"A versatile blender for smoothies, sauces, and more."},
+  {"id":"p10","name":"Weatherproof Umbrella","category":"Accessories","price":19.80,"image":"images/products/umbrella.jpg","description":"A dependable compact umbrella for unpredictable weather."},
+  {"id":"p11","name":"Cozy Red Zip Hoodie","category":"Clothing","price":39.25,"image":"images/products/men-cozy-fleece-zip-up-hoodie-red.jpg","description":"Warm fleece with an easy full-zip design."},
+  {"id":"p12","name":"Ceramic Dinner Plate Set","category":"Home","price":32.00,"image":"images/products/6-piece-white-dinner-plate-set.jpg","description":"Six clean white plates for daily meals and gatherings."}
+]

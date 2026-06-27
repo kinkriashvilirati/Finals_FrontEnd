@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Review the products in your NOVA Market cart." />
+    <title>Your Cart | NOVA Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="NOVA Market home"><span class="logo-mark">N</span><span>NOVA</span></a>
+        <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation" data-menu-button><span></span><span></span><span></span></button>
+        <nav class="main-nav" id="main-navigation" aria-label="Main navigation" data-navigation>
+          <a href="index.html">Shop</a><a href="about.html">About</a><a href="register.html">Register</a>
+          <a class="cart-link active" href="cart.html">Cart <span class="cart-count" data-cart-count>0</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero small-hero">
+        <div class="container">
+          <p class="eyebrow">Your selection</p>
+          <h1>Shopping cart</h1>
+          <p>Review your items before continuing.</p>
+        </div>
+      </section>
+
+      <section class="cart-section">
+        <div class="container cart-layout">
+          <div class="cart-items" data-cart-items></div>
+          <aside class="cart-summary" aria-label="Order summary">
+            <h2>Order summary</h2>
+            <div><span>Items</span><span data-summary-count>0</span></div>
+            <div><span>Delivery</span><span>Free</span></div>
+            <div class="summary-total"><span>Total</span><strong data-cart-total>$0.00</strong></div>
+            <button class="button button-primary checkout-button" type="button" data-checkout-button>Checkout</button>
+            <p class="checkout-note" data-checkout-message>This demonstration does not process real payments.</p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="logo logo-footer" href="index.html"><span class="logo-mark">N</span><span>NOVA</span></a>
+        <p>Everyday products, thoughtfully chosen.</p><p>&copy; <span data-current-year></span> NOVA Market</p>
+      </div>
+    </footer>
+    <script src="scripts/shared.js"></script>
+    <script src="scripts/cart-page.js"></script>
+  </body>
+</html>

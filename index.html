@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NOVA Market offers useful everyday products in one simple online store."
+    />
+    <title>NOVA Market | Everyday products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="NOVA Market home">
+          <span class="logo-mark">N</span>
+          <span>NOVA</span>
+        </a>
+
+        <button
+          class="menu-button"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+          data-menu-button
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="main-navigation" aria-label="Main navigation" data-navigation>
+          <a class="active" href="index.html">Shop</a>
+          <a href="about.html">About</a>
+          <a href="register.html">Register</a>
+          <a class="cart-link" href="cart.html">
+            Cart <span class="cart-count" data-cart-count>0</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Simple choices. Better days.</p>
+            <h1>Good things for everyday living.</h1>
+            <p class="hero-text">
+              Thoughtfully selected home, style, and everyday products—without the endless scrolling.
+            </p>
+            <a class="button button-primary" href="#products">Explore products</a>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="shape shape-one"></div>
+            <div class="shape shape-two"></div>
+            <div class="hero-card">
+              <span>Fresh finds</span>
+              <strong>Made for real life.</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits" aria-label="Store benefits">
+        <div class="container benefits-grid">
+          <article>
+            <span class="benefit-icon">01</span>
+            <div><h2>Curated range</h2><p>Useful products, carefully selected.</p></div>
+          </article>
+          <article>
+            <span class="benefit-icon">02</span>
+            <div><h2>Simple shopping</h2><p>A clear experience from browse to cart.</p></div>
+          </article>
+          <article>
+            <span class="benefit-icon">03</span>
+            <div><h2>Friendly support</h2><p>Helpful answers when you need them.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="products-section" id="products">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Our collection</p>
+              <h2>Shop the latest picks</h2>
+            </div>
+            <div class="catalogue-tools">
+              <label class="search-field">
+                <span class="sr-only">Search products</span>
+                <input type="search" placeholder="Search products" data-search-input />
+              </label>
+              <label>
+                <span class="sr-only">Filter by category</span>
+                <select data-category-filter>
+                  <option value="all">All categories</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <p class="status-message" data-product-status>Loading products...</p>
+          <div class="product-grid" data-product-grid></div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container newsletter-inner">
+          <div>
+            <p class="eyebrow">Stay in the loop</p>
+            <h2>New finds, once in a while.</h2>
+          </div>
+          <a class="button button-light" href="register.html">Join NOVA</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="logo logo-footer" href="index.html"><span class="logo-mark">N</span><span>NOVA</span></a>
+        <p>Everyday products, thoughtfully chosen.</p>
+        <p>&copy; <span data-current-year></span> NOVA Market</p>
+      </div>
+    </footer>
+
+    <script src="scripts/shared.js"></script>
+    <script src="scripts/store.js"></script>
+  </body>
+</html>
