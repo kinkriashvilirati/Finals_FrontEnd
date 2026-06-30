@@ -77,16 +77,20 @@
 }
 
 .quantity-controls button {
-  width: 29px;
+  min-width: 29px;
   height: 29px;
   background: var(--cream);
   border-radius: 50%;
 }
 
 .remove-button {
-  padding: 0;
+  padding: 20px;
+  border-radius: 10% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   color: var(--error);
-  background: transparent;
   font-size: 0.78rem;
 }
 
