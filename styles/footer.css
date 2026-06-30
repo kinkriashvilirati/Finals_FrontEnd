@@ -1,0 +1,28 @@
+.site-footer {
+  padding: 42px 0;
+  color: #bec9c2;
+  background: #12241a;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.footer-inner p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.logo-footer {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}

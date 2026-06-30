@@ -1,0 +1,190 @@
+.form-section {
+  padding: 85px 0 100px;
+  background: var(--cream);
+}
+
+.form-layout {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  align-items: start;
+  gap: 80px;
+}
+
+.form-intro {
+  position: sticky;
+  top: 120px;
+  padding-top: 40px;
+}
+
+.form-intro h1 {
+  font-size: clamp(2.7rem, 5vw, 4.8rem);
+}
+
+.form-intro > p:not(.eyebrow),
+.form-intro li {
+  color: var(--muted);
+}
+
+.form-intro ul {
+  margin: 35px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form-intro li {
+  padding: 10px 0;
+}
+
+.form-intro li::before {
+  margin-right: 10px;
+  color: var(--green);
+  content: "✓";
+  font-weight: 700;
+}
+
+.register-form {
+  padding: 42px;
+  background: white;
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+}
+
+.register-form h2 {
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+}
+
+.form-note,
+.field-help {
+  color: var(--muted);
+}
+
+.form-note {
+  margin-bottom: 30px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.form-field input {
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  border: 1px solid #cfd5d0;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.form-field input:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px rgba(33, 78, 59, 0.12);
+}
+
+.form-field input.invalid {
+  border-color: var(--error);
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  padding-right: 70px;
+}
+
+.password-input button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  padding: 6px;
+  color: var(--green);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 700;
+  transform: translateY(-50%);
+}
+
+.field-help,
+.field-error {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.78rem;
+}
+
+.field-error {
+  min-height: 1em;
+  color: var(--error);
+}
+
+.checkbox-field {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.checkbox-field input {
+  width: 17px;
+  height: 17px;
+  margin-top: 3px;
+  accent-color: var(--green);
+}
+
+.terms-error {
+  margin-bottom: 15px;
+}
+
+.form-submit {
+  width: 100%;
+}
+
+.form-success {
+  margin: 16px 0 0;
+  color: var(--success);
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .form-layout {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .form-section {
+    padding: 35px 0 75px;
+  }
+
+  .form-intro {
+    position: static;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-form {
+    padding: 26px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .register-form {
+    padding: 22px 14px;
+  }
+}
