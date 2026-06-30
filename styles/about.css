@@ -25,9 +25,6 @@
   font-weight: 800;
 }
 
-.story-content p:not(.eyebrow) {
-  color: var(--muted);
-}
 
 .values-section {
   background: var(--cream);

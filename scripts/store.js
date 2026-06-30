@@ -82,7 +82,7 @@ function addToCart(productId, button) {
   } else {
     cart.push({ ...selectedProduct, quantity: 1 });
   }
-
+  console.log(NovaStore)
   NovaStore.saveCart(cart);
   NovaStore.showToast(`${selectedProduct.name} added to cart`);
   button.textContent = "✓";
